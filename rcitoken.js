@@ -3,7 +3,7 @@ const HttpProvider = TronWeb.providers.HttpProvider;
 const fullNode = new HttpProvider('https://api.shasta.trongrid.io');
 const solidityNode = new HttpProvider('https://api.shasta.trongrid.io');
 const eventServer = 'https://api.shasta.trongrid.io/';
-const privateKey = '5D924AB88193ED404CAFA8CC5E55DE41E0E37490D42A6C6CA993FEEA50349862';
+const privateKey = 'ISI PRIVATE KEY';
 
 const app = async () => {
     const tronWeb = new TronWeb(
